@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DB7E96DB-3260-4AC5-863E-ABEA36B97357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Lib", "src\Sudoku.Lib\Sudoku.Lib.csproj", "{886E40B1-C859-4CAC-82A5-48880AEE8E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.App", "src\Sudoku.App\Sudoku.App.csproj", "{FA6E2471-FA4C-4E75-A6B8-910A4D4C2BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6C93C8B5-0EBB-4C43-84AE-597CE6557427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Tests", "test\Sudoku.Tests\Sudoku.Tests.csproj", "{966B46FB-AA00-43FE-A3D8-828D6F3B7072}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886E40B1-C859-4CAC-82A5-48880AEE8E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886E40B1-C859-4CAC-82A5-48880AEE8E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886E40B1-C859-4CAC-82A5-48880AEE8E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886E40B1-C859-4CAC-82A5-48880AEE8E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6E2471-FA4C-4E75-A6B8-910A4D4C2BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6E2471-FA4C-4E75-A6B8-910A4D4C2BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6E2471-FA4C-4E75-A6B8-910A4D4C2BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6E2471-FA4C-4E75-A6B8-910A4D4C2BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966B46FB-AA00-43FE-A3D8-828D6F3B7072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966B46FB-AA00-43FE-A3D8-828D6F3B7072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966B46FB-AA00-43FE-A3D8-828D6F3B7072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966B46FB-AA00-43FE-A3D8-828D6F3B7072}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{886E40B1-C859-4CAC-82A5-48880AEE8E44} = {DB7E96DB-3260-4AC5-863E-ABEA36B97357}
+		{FA6E2471-FA4C-4E75-A6B8-910A4D4C2BBA} = {DB7E96DB-3260-4AC5-863E-ABEA36B97357}
+		{966B46FB-AA00-43FE-A3D8-828D6F3B7072} = {6C93C8B5-0EBB-4C43-84AE-597CE6557427}
+	EndGlobalSection
+EndGlobal
