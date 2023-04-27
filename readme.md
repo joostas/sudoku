@@ -49,6 +49,9 @@ OPTIONS:
 ```
 * Get help for solve command:
 ```
+sudoku solve -h
+```
+```
 USAGE:
     Sudoku.dll solve [OPTIONS]
 
@@ -97,6 +100,7 @@ Solution consist of three projects:
 ### Main classes:
 `SudokuSolver` - It solves provided sudoku puzzle.
 Puzzle is provided as two dimensional array of numbers.
+
 Algorithm:
 1. Builds bitmaps for rows, lines and boxes. Also checks if sudoku rules are not violated.
 1. Goes through sudoku cells
